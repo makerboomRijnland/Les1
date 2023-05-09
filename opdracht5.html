@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Programmeren P3 - Toets - Opdracht 4</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/opdracht5.js" defer></script>
+</head>
+<body>
+    <header id="header">
+        <h1 id="page-title">
+            Progammeren P3 - Toets - Opdracht 5
+        </h1>
+
+        <nav id="navigation">
+            <i class="burger"></i>
+        </nav>
+    </header>
+
+    <main id="main">
+
+        <template id="assignment-article">
+            <article>
+                <h2>Title</h2>
+                <p>Content</p>
+            </article>
+        </template>
+
+        
+        <template id="assignment-section">
+            <section>
+                <h3>Title</h3>
+                <p>Content</p>
+            </section>
+        </template>
+        
+        <article>
+            <h2>5. Canvas </h2>
+
+            <canvas id="canvas" width="500" height="500"></canvas>
+
+            <section>
+                <h3>5.1 Background</h3>
+
+                <p>
+                    Zorg voor een javascript bestand en voeg deze toe aan de HTML. <br>
+                    Schrijf een functie die het onderstaande doet. <br>
+                    Roep deze functie aan zodra de pagina is geladen.
+                </p>
+
+                <ol>
+                    <li>Geef de canvas een zwarte achtergrond.</li>
+                    <li>Teken een 20px kleinere rood vierkant met een groene rand gecentreerd over de zwarte achtergrond.</li>
+                </ol>
+
+            </section>
+
+            <section>
+                <h3>5.2 Agar</h3>
+
+                <ol>
+                    <li>
+                        Maak een object (agar) met eigenschappen voor:
+                        <ul>
+                            <li>x (midden van canvas)</li>
+                            <li>y (midden van canvas)</li>
+                            <li>size (10)</li>
+                        </ul>
+                    </li>
+                </ol>
+
+                <p>
+                    Voeg onderstaande functionaliteit toe aan de eerder geschreven functie:
+                </p>
+
+                <ol>
+                    <li>
+                        Teken een gevulde cirkel gebruikmakend van het object hiervoor. <br>
+                        <a href="https://www.w3schools.com/tags/canvas_arc.asp">voorbeeld</a>
+                    </li>
+                </ol>
+
+            </section>
+
+
+
+            <section>
+                <h3>5.3 Move agar</h3>
+
+                <p>
+                    Schrijf de code zodat je met de WASD toetsen de agar kan bewegen. <br>
+                    Zorg ook dat na elke beweging het canvas wordt geupdate.
+                </p>
+            </section> 
+
+        </article>
+
+    </main>
+</body>
+</html>

@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Programmeren P3 - Toets - Opdracht 4</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/opdracht4.js" defer></script>
+</head>
+<body>
+    <header id="header">
+        <h1 id="page-title">
+            Progammeren P3 - Toets - Opdracht 4
+        </h1>
+
+        <nav id="navigation">
+            <i class="burger"></i>
+        </nav>
+    </header>
+
+    <main id="main">
+
+        <template id="assignment-article">
+            <article>
+                <h2>Title</h2>
+                <p>Content</p>
+            </article>
+        </template>
+
+        
+        <template id="assignment-section">
+            <section>
+                <h3>Title</h3>
+                <p>Content</p>
+            </section>
+        </template>
+        
+        <article>
+            <h2>4. HTML/CSS Styling </h2>
+
+            <section id="make-text-purple">
+                <h3>4.1 Mouseover</h3>
+
+                <p>
+                    Definieer en koppel een functie aan het mouseover event van deze section (ID=make-text-purple).<br>
+                    Zorg ervoor dat de tekstkleur wordt veranderd naar purple. <br>
+                </p>
+                
+                <h4>Extra uitdaging</h4>
+                <p>
+                    Zorg er voor dat de textkleur weer terug wordt gezet (<em>null</em>) bij het verlaten van de muis aanwijzer.
+                </p>
+
+            </section>
+
+
+            <section id="random-color">
+                <h3>4.2. Random getal</h3>
+                
+                <p>
+                    Zorg ervoor dat bij het klikken op de onderstaande knop,<br>
+                    een random getal tussen 0 en 100 wordt getoond hieronder.<br>
+                    <button id="show-random-digit">Random getal</button>
+                </p>
+
+                <p>
+                    <label for="random-digit">Getal:</label>
+                    <input id="random-digit" readonly>
+                </p>
+            </section>
+
+
+            <section>
+                <aside class="right">
+                    <img src="img/whoareyou.jpg" alt="Who are you?">
+                </aside>
+
+                <h3>4.3. Plaatje tonen</h3>
+                <p>
+                    Zorg ervoor dat bij het drukken op onderstaande knop, <br>
+                    de URL van onderstaande &lt;img&gt; wordt aangepast naar de waarde van onderstaande &lt;input&gt;<br>
+
+                    De URL van het plaatje is: <em>img/[naam].jpg</em>.
+                    De <em>[naam]</em> Haal je uit de &lt;input&gt; <br>
+
+                    Pas ook de <em>alt</em> text aan.
+                </p>
+
+                <p>
+                    Naam: <input type="text" value="dabest" id="image-name">. <br>
+                    <button id="show-image">Toon plaatje</button>
+                </p>
+            </section>
+
+            <section>
+                <h3>4.3. Draaiende hamburger</h3>
+
+                <p>
+                    Schrijf een functie die de hamburger (in de header!) laat ronddraaien.<br> 
+                    Roep deze functie elke 20ms aan. <br>
+
+                    Elke iteratie (20ms) moet de burger 1deg extra gedraaid zijn. <br>
+                    HINT: <em>transform: rotate(45deg)</em>
+                </p>
+
+            </section>
+
+        </article>
+
+    </main>
+</body>
+</html>

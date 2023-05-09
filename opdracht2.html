@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Programmeren P3 - Toets - Opdracht 2</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/opdracht2.js" defer></script>
+
+</head>
+<body>
+    <header id="header">
+        <h1 id="page-title">
+            Progammeren P3 - Toets - Opdracht 2
+        </h1>
+
+        <nav id="navigation">
+            <i class="burger"></i>
+        </nav>
+    </header>
+
+    <main id="main">
+
+        <template id="assignment-article">
+            <article>
+                <h2>Title</h2>
+                <p>Content</p>
+            </article>
+        </template>
+
+        
+        <template id="assignment-section">
+            <section>
+                <h3>Title</h3>
+                <p>Content</p>
+            </section>
+        </template>
+        
+        <article>
+            <h2>2. Arrays</h2>
+
+            <section>
+                <h3>2.1 Array definieren</h3>
+
+                <p>
+                    Definieer de constante <strong>beestQuotes</strong>, <br>
+                    met als waarde een array met de volgende waardes:
+                </p>
+    
+                <ul>
+                    <li>Grab the broom of anger and drive off the beast of fear. (Zora Neale Hurston)</li>
+                    <li>I fear no man, no beast or evil, brother. (Hulk Hogan)</li>
+                    <li>Take hope from the heart of man and you make him a beast of prey. (Ouida)</li>
+                </ul>
+            </section>
+
+
+            <section>
+                <h3>2.2. Array doorlopen</h3>
+
+                <p>
+                    Toon hieronder de namen van de beestQuotes (gebruikmakend van de Array). <br>
+                    zet elke quote in een &lt;li&gt; element. <br> 
+                    VoorbeeldB: &lt;li&gt;Houston, we have a problem! (Apollo 13)&lt;/li&gt;
+                </p>
+
+                <ul id="beest-quotes">
+
+                </ul>
+            </section>
+
+
+            <section>
+                <h3>2.3. Random quote</h3>
+                <p>
+                    Toon bij een druk op de onderstaande knop, een random quote uit de array.<br>
+                    <button id="toon-beest-quote-random">Random quote</button>
+                </p>
+
+                <p id="beest-quote-random">
+                    ?
+                </p>
+            </section>
+
+
+        </article>
+
+    </main>
+</body>
+</html>

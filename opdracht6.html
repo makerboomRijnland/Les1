@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Programmeren P3 - Toets - Opdracht 3</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/opdracht6.js" defer></script>
+
+</head>
+<body>
+    <header id="header">
+        <h1 id="page-title">
+            Progammeren P3 - Toets - Opdracht 6
+        </h1>
+
+        <nav id="navigation">
+            <i class="burger"></i>
+        </nav>
+    </header>
+
+    <main id="main">
+
+        <template id="assignment-article">
+            <article>
+                <h2>Title</h2>
+                <p>Content</p>
+            </article>
+        </template>
+
+        
+        <template id="assignment-section">
+            <section>
+                <h3>Title</h3>
+                <p>Content</p>
+            </section>
+        </template>
+        
+        <article>
+            <h2>6. Class </h2>
+
+            <section>
+                <h3>6.1 Class definieren</h3>
+
+                <p>
+                    Definieer de class Beest, met de volgende eigenschappen. <br>
+                    Definieer ook de constructor, die als argumenten de voornaam, bijnaam en favorieteVoedsel heeft.<br>
+                    favorieteVoedsel heeft als standaard waarde een lege Array.<br>
+                    Zorg dat deze argumenten worden overgenomen als de waardes van de eigenschappen van het object.
+                </p>
+    
+                <ul>
+                    <li>voornaam</li>
+                    <li>bijnaam</li>
+                    <li>favorieteVoedsel (Array van gerechten)</li>
+                </ul>
+
+
+            </section>
+
+
+            <section>
+                <h3>6.2. Objecten instantieren</h3>
+                <p>
+                    Maak de constante aan: <strong>beest1</strong>, met als waarde een nieuwe Beest.<br>
+                    Verzin zelf de voornaam, de bijnaam en de favorieteVoedsel van het beest.<br>
+
+                    Toon hieronder de waardes van dit object. Na elke gerecht moet een &lt;br&gt;
+                </p>
+
+                <dl>
+                    <dt>Voornaam</dt>
+                    <dd id="beest-voornaam">?</dd>
+                    <dt>Gerechten</dt>
+                    <dd id="beest-favorieteVoedsel">?</dd>
+                </dl>
+            </section>
+
+
+            <section>
+                <h3>6.3. Class methode</h3>
+                <p>
+                    Definieer in de class Beest de methode <strong>naamEnVoedsel()</strong>.<br>
+                    Deze methode moet teruggeven: De volledige naam en het aantal favorieteVoedsel<br>
+                </p>
+
+                <p>
+                    Voorbeeld:<br>
+                    Bij een beest met 4 favorieteVoedsel: "Goopla, The Gorky Grollo (4)"
+                </p>
+
+                <p>
+                    Beest en gerechten: <span id="beest-en-gerechten">?</span>
+                </p>
+            </section>
+
+            <section>
+                <h3>6.4. Array van objecten</h3>
+
+                <p>
+                    Definieer de constante <strong>beesten</strong>. <br>
+                    Met als waarde een array met 5 objecten die je van de class Beest maakt. <br>
+                </p>
+            </section>
+
+            <section>
+                <h3>6.5. Beesten en films</h3>
+
+                <p>
+                    Toon bij een druk op onderstaande knop: de namen en aantal gerechten (6.3) van alle beesten in de array.<br>
+                    Toon elke naam en films in een &lt;li&gt;.
+                </p>
+
+                <ul id="beesten-en-films">
+                </ul>
+
+                <button id="toon-beesten-en-films">Toon beesten en films</button>
+            </section>
+
+            <section>
+                <h3>6.6. Nieuw Beest</h3>
+
+                <p>
+                    Zorg dat er een beest wordt toegevoegd aan de array <em>beesten</em> met onderstaand formulier. <br>
+                    Maak het formulier leeg na het toevoegen.
+                </p>
+
+                <form>
+                    <p>
+                        <label for="nieuw-beest-voornaam">Voornaam:</label>
+                        <input type="text" name="beest[voornaam]" id="nieuw-beest-voornaam">
+                    </p>
+                    <p>
+                        <label for="nieuw-beest-bijnaam">Bijnaam:</label>
+                        <input type="text" name="beest[bijnaam]" id="nieuw-beest-bijnaam">
+                    </p>
+                    <p>
+                        <button id="voeg-beest-toe">Voeg beest toe</button>
+                    </p>
+                </form>
+
+            </section>
+
+
+        </article>
+
+    </main>
+</body>
+</html>
